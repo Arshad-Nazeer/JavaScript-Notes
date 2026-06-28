@@ -1,3 +1,11 @@
+// JavaScript (JS) is a high-level, lightweight, dynamically typed, multi-paradigm programming language that was originally created to add interactivity and dynamic behavior to web pages. It is one of the three core technologies of the World Wide Web, alongside HTML (structure) and CSS (presentation). JavaScript enables developers to manipulate webpage content, respond to user actions, communicate with servers, create animations, validate forms, and build complex web applications. Today, JavaScript is not limited to browsers—it is also used for server-side development, desktop applications, mobile applications, game development, and even IoT devices through runtimes like Node.js.
+
+//High-level: Easy for humans to read and write.
+// Interpreted/JIT-compiled: Runs directly in browsers without manual compilation.
+// Dynamic: Variable types are determined at runtime.
+// Multi-paradigm: Supports procedural, object-oriented, and functional programming.
+// Cross-platform: Runs in all major web browsers and can also run outside the browser using Node.js.
+
 // Single Quotes ('')
 // 1. Used to create normal strings.
 // 2. Does not support variable interpolation (${ }).
