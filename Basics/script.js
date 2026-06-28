@@ -16,9 +16,9 @@
 console.log(`Hello, World!`);
 console.log(`This is a simple JavaScript file.`);
 
-//displaying an alert message using JavaScript
-// window.alert(`This is an alert message from the script.js`);
-// window.alert(`another alert message from the script.js`);
+// displaying an alert message using JavaScript
+window.alert(`This is an alert message from the script.js`);
+window.alert(`another alert message from the script.js`);
 
 //This is a comment in JavaScript
 

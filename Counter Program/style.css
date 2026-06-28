@@ -20,7 +20,7 @@ body{
     background-color: #cc2609;
     border-radius: 5px;
     cursor: pointer;
-    transition: bakground-color 0.25s ease;
+    transition: background-color 0.25s ease;
 }
 
 .buttons:hover{
