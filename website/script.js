@@ -39,3 +39,51 @@ console.log(Math.floor(Math.random() * (max - min)) + min+1); // Returns a rando
  // Math.floor(Math.random() * (max - min + 1)) + min
  // Math.floor(Math.random() * RANGE) + STARTING POINT
  // Math.floor(Math.random() * (max - min + 1)) + min ENDING POINT IS EXCLUDED, SO WE ADD 1 TO INCLUDE IT IN THE RANGE.
+
+
+
+ // IF-ELSE statements :- if a condition is true, then the code inside the if block will be executed. If the condition is false, then the code inside the else block will be executed.
+
+let time = 10;
+
+if(time>12){
+    console.log("Good afternoon!");
+} else {
+    console.log("Good morning!");
+}
+
+let isRaining = true;
+if(isRaining) console.log("Take an umbrella.");
+else 
+    console.log("No need for an umbrella.");
+
+
+let age = 18;
+let hasVoterID=false;
+    //nested IF-ELSE
+if(age>=18){
+    console.log("You are eligible to vote.");
+    if(hasVoterID){
+        console.log("you have a voter ID");
+    }else{
+        console.log("you don't have a voter ID");
+    }
+} else {
+    console.log("You are not eligible to vote.");
+}
+
+
+const text=document.getElementById("mytext");
+const submit=document.getElementById("btn");
+const result=document.getElementById("result");
+let age1;
+
+submit.onclick = function(){
+    age1=text.value;
+    age1=Number(age1);
+    if(age1>=100) result.textContent = "You are too old to enter this site";
+    else if(age1==0) result.textContent = "You can't enter. You were just born";
+    else if(age1>=18) result.textContent = "You are old enough to enter this site";
+    else if(age1<0) result.textContent = "Invalid Age";
+    else result.textContent = "you must be 18+ to enter this site";
+}
