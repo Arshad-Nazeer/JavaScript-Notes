@@ -79,7 +79,7 @@ let loggedin=false;
 let user;
 let password;
 
-/* while(!loggedin){
+while(!loggedin){
     user = window.prompt("Enter your user name: ");
     password = window.prompt("Enter your password: ");
 
@@ -88,7 +88,7 @@ let password;
         console.log("You are logged in");
     }else console.log("Invalid credentials");
 }
-    */
+    
 
 // do{
 //     user = window.prompt("Enter your user name: ");
@@ -115,3 +115,36 @@ for(let i=0; i<20; i++){
     if(i==13) break;
     console.log(i);
 }
+
+//Function:- a section of reusable code. Declare code once, use it whenever you want. Call the function to execute that code
+
+function HappyBirthday(username, age){
+    console.log("Happy Birthday to you!");
+    console.log(`Happy Birthday Dear you ${username}`);
+    console.log("Happy Birthday to you!");
+    console.log(`You are ${age} years old`);
+}
+
+HappyBirthday("Arshad Nazeer", 67); 
+
+function add(x, y){
+    let result=x+y;
+    return result;
+}
+
+let ans = add(5, 10);
+console.log(ans);   
+console.log(add(2, 3));
+
+function iseven(num){
+    return num%2==0 ? true: false;
+}
+
+console.log(iseven(12));
+
+function isvalidemail(mail){
+    if(mail.includes("@")) return "yes it's valid";
+    else return "No its Not Valid";
+}
+
+console.log(isvalidemail("arshad@fake.com"));
