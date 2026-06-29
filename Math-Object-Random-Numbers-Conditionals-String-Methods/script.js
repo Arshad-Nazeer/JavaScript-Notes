@@ -8,7 +8,7 @@ let num = 4.7;
 console.log(Math.round(num)); // Rounds to the nearest integer
 console.log(Math.floor(num)); // Rounds down to the nearest integer
 console.log(Math.ceil(num)); // Rounds up to the nearest integer
-console.log(Math.trunc(num)); // Removes the decimal part, effectively rounding towards zero
+console.log(Math.trunc(num)); // Removes the decimal part, effectively rounding towards zero, it looks like math.floor() but produce different result incase of negative numbers 
 console.log(Math.pow(2, 3)); // 2 raised to the power of 3
 console.log(Math.sqrt(15)); // Square root of 15 = 3.872983346207417
 console.log(Math.log(10)); // Natural logarithm of 10
@@ -207,3 +207,22 @@ console.log(phone.replaceAll("-", ""));
 console.log(phone.replaceAll("-", "/"));
 console.log(phone.padStart(15, "0")); // Pads the beginning of the string with specified string until it reaches a total length of mentioned no. of characters.
 console.log(phone.padEnd(15, "01")); // Pads the end of the string with specified string until it reaches a total length of mentioned no. of characters.
+
+
+
+//string slicing:- creating a substring from a portion of another string
+
+const fullname = "Arshad Nazeer";
+
+console.log(fullname.slice(0, 6));    // [n, m)
+console.log(fullname.slice(7, 13));
+console.log(fullname.slice(3));
+console.log(fullname.slice(-3));  
+
+console.log(fullname.slice(0, fullname.indexOf(" ")));
+console.log(fullname.slice(fullname.indexOf(" ")+1));
+
+const email = "arshad@gmail.com";
+
+console.log(`the username is ${email.slice(0, email.indexOf("@"))}`);
+console.log(`the extension is is ${email.slice(email.indexOf("@"))}`);
