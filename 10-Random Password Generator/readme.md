@@ -12,7 +12,8 @@ A simple JavaScript password generator with a retro pixel-themed interface.
   * Numbers
   * Symbols
 * Input validation for invalid length or no character set selected
-* Instant password generation
+* Instant password generatio
+3n
 
 ## Technologies Used
 
