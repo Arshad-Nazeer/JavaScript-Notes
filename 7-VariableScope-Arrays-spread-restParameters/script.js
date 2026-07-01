@@ -78,6 +78,7 @@ console.log(Math.max(...numbers));
 console.log(Math.min(...numbers));
 
 let username="Arshad Nazeer";
+console.log(...username);
 console.log(username);
 let letters = [...username];  //divides username into different characters 
 console.log(letters);
@@ -87,7 +88,8 @@ console.log(letters);
 let fruits1= ["apple", "orange", "banana"];
 let newfruits = [...fruits1];
 
-console.log(fruits);
+console.log(fruits1);
+console.log(...fruits1);
 console.log(newfruits);
 
 let vegetables = ["carrots", "onion", "potatoes"]
@@ -96,9 +98,9 @@ console.log(foods);
 
 
 
-// rest parameters(...rest):- allow a function work with a variabvle number of arguments by bundling them into an array
+// rest parameters(...rest):- allow a function work with a variable number of arguments by bundling them into an array (opposite of spread)
 // spread:- expands an array into seperate elements
-// rest:-  budles sepeerate elements into an array
+// rest:-  bundles seperate elements into an array
 
 function openFridge(...foods){  //rest parameter
     console.log(foods);  //array
