@@ -1,4 +1,4 @@
-// Callback:- a function that is as an arguement to another function
+// Callback:- a function that is passed as an arguement to another function
 // Used to handle asynchronous operations
 // 1. reading a file
 // 2. Network request
@@ -250,7 +250,7 @@ const nums1 = [1, 2, 3, 4, 5, 6];
 //     return Math.pow(element, 2);
 // }
 // const sqrs = nums1.map(sqr); 
-// instead of function declaration and then passing a callback, we can pass an antire function expression as an arguement to the methods(map, filter, reduce)
+// instead of function declaration and then passing a callback, we can pass an entire function expression as an arguement to the methods(map, filter, reduce)
 
 const sqrs = nums1.map(function(element){
     return Math.pow(element, 2);
