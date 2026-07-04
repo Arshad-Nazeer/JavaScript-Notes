@@ -281,6 +281,9 @@ hawk.fly();
 // super keyword:- keyword is used in classes to call the constructor or access the properties and methods of a parent (superclass)
 // this = this object
 // super = the parent
+// The super keyword in JavaScript is used inside child classes to access the parent class. It has two main uses:
+// Call the parent class constructor.
+// Access the parent class's methods.
 
 class Animal1{
     constructor(name, age){
@@ -321,6 +324,7 @@ class Fish1 extends Animal1{
 const rabbit1 = new Rabbit1("bunny", 2, 25);
 const fish1 = new Fish1("nemo", 1, 15);
 //Uncaught ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+// Note: In a base class, JavaScript automatically creates and initializes this before the constructor runs, but in a derived class (extends), this is initialized by the parent constructor, so super() must be called before accessing this.
 //common properties can be transferred to parent constructor and called by super();
 
 console.log(rabbit1.name, rabbit1.age, rabbit1.runspeed);
@@ -331,12 +335,16 @@ rabbit1.run();
 
 
 // getter:- special methods that makes a property readable
+// A getter is a method that runs when you read a property.
+// Getter:- Modifies or formats the output before returning it
 // setter:- special methods that makes a property writeable
+// A setter is a method that runs when you assign a value to a property.
+//Setter:- Validates or modifies the input before storing it.
 //validate and modify a value when reading or writing a property
 
 class Rectangle{
     constructor(width, height){
-        this.width=width;
+        this.width=width; // calls set width(newwidth)
         this.height=height;
     }
 
@@ -359,9 +367,12 @@ class Rectangle{
     }
 
     get area(){
+        // area getter uses the raw numeric values stored in _width and _height
         return this._width*this._height;
     }
 }
+
+//this._height is an internal (backing) property used to store the actual value of height. The underscore (_) is a naming convention to distinguish it from the getter/setter property and to avoid infinite recursion.
 
 const rectangle = new Rectangle(-1000000, "pizza");
 // console.log(rectangle.width, rectangle.height);
