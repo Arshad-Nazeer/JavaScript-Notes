@@ -373,7 +373,7 @@ const game = createGame();
 game.increaseScore(5);
 game.increaseScore(4);
 game.decreaseScore(6);
-console.log(frameElement.getScore());
+console.log(game.getScore());
 
 
 
