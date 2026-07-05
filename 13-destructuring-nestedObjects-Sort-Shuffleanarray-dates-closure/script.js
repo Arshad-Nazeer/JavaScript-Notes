@@ -136,11 +136,11 @@ console.log(fruits);
 fruits.pop();
 console.log(fruits);
 
-fruits.splice(1, 2); //remove at certqain indices
+fruits.splice(1, 2); //remove at certain indices
 console.log(fruits);
 
 //forEach();
-fruits.forEach(fruit =>console.log(fruit.calories));
+fruits.forEach(fruit => console.log(fruit.calories));
 
 const fruitcolors = fruits.map(fruit => {return fruit.color});
 console.log(fruitcolors);
@@ -218,7 +218,7 @@ const cards = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K']
 
 cards.sort(() => Math.random()-0.5);
 // not proper shuffle, not recommended
-// cards.sort(() => Math.random() - 0.5) does not produce a truly random (uniform) shuffle, because the random comparison function violates how sort() is designed to work, coparison function expects a consistent answer, causing some permutations to be more likely than others.
+// cards.sort(() => Math.random() - 0.5) does not produce a truly random (uniform) shuffle, because the random comparison function violates how sort() is designed to work, comparison function expects a consistent answer, causing some permutations to be more likely than others.
 
 console.log(cards);
 
@@ -329,6 +329,7 @@ increment();
 increment();
 // it will remain 1 always
 // we can decalre it outside but that will not have any security
+// we need to save state
 
 function createCounter(){
     let count=0;
