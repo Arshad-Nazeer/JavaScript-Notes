@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="startTimer()">START</button>
+    <button onclick="clearTimer()">CLEAR</button>
+    <script type="module" src="script.js"></script>
+    <!-- 
+    type="module" tells the browser to load script.js as an ES (ECMAScript) module instead of a normal JavaScript file.
+    It lets you use import and export statements.
+    without type="module", Everything is in the global scope.
+    Everything is in the global scope.
+
+    <script src="math.js"></script>
+    <script src="game.js"></script>
+    <script src="script.js"></script>
+    Files share the global scope.
+    They can access each other's global variables/functions.
+    No import or export.
+
+    
+    <script type="module" src="script.js"></script>
+    Then inside script.js:
+    import { add } from "./math.js";
+    import { startGame } from "./game.js";
+    Usually you only include the main file (script.js) in your HTML.
+    That file imports whatever it needs.
+    Other files are loaded automatically by the browser. -->
+</body>
+</html>
