@@ -260,7 +260,7 @@ console.log(date);
 
 date = new Date(170000000000000);
 console.log(date);
-//avaScript treats the number as the number of milliseconds since midnight, January 1, 1970 (UTC). This reference point is called the Unix Epoch.
+//javaScript treats the number as the number of milliseconds since midnight, January 1, 1970 (UTC). This reference point is called the Unix Epoch.
 
 date=new Date();
 
