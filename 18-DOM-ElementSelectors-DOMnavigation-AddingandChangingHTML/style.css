@@ -1,0 +1,10 @@
+.box{
+    border: 3px solid;
+    width: 100%;
+    height: 125px;
+}
+
+#fruitsnew{
+    border: 3px solid;
+    font-size: 2rem;
+}
