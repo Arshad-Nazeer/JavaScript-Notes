@@ -7,7 +7,7 @@ let isRunning=false;
 function start(){
     if(!isRunning){
         startTime = Date.now()-elapsedTime;
-        //subtracted by elasped time ton keep track of startTime since last start
+        //subtracted by elasped time to keep track of startTime since last start
         //Date.now return current time in ms since han 1, 1970
         timer = setInterval(update, 10);
         isRunning = true

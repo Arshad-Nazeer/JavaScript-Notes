@@ -33,6 +33,11 @@ function clearTimer(){
     console.log("Cleared");
 }
 
+// type="module" tells the browser to load script.js as an ES (ECMAScript) module instead of a normal JavaScript file.
+// In this case, functions like startTimeout() and clearTimer() cannot be accessed directlyy by onclick attribute in html
+// function are not global anymore, functions are in the scope of their module
+// Use addEventListener() so the button and its function stay in the same module.
+// If you need HTML's onclick="" to access the function,explicitly make it global by attaching it to the window object.
 
 
 //ES6 Module :- an external file that contains reusable code that can be imported into other JavaScript files.
@@ -104,7 +109,7 @@ func1(func2);
 // solution:- 
 // try { } :- encloses code that might potentially cause an error
 // catch {} -> catch and handle any thrown errors from try {}
-// finally {} :- {optional} always executes. Uzed mostly for clean up. example:- close files, close connections, release resources
+// finally {} :- {optional} always executes. Used mostly for clean up. example:- close files, close connections, release resources
 
 try{
     console.log(x);  //undefined x
