@@ -39,7 +39,7 @@ welcomeMsg.textContent += username==="" ? ' Guest' : username;
 
 
 
-// Element Selectors :- Methods used to target and manipuylate HTML elements
+// Element Selectors :- Methods used to target and manipulate HTML elements
 // They allow you to select one or multiple elements from the DOM (document object model)
 // these are methods of document
 
@@ -75,7 +75,8 @@ for(let h4element of h4elements){
     h4element.style.backgroundColor = "blue";
 }
 
-const liElements = document.getElementsByTagName("li");Array.from(liElements).forEach(ele => ele.style.backgroundColor = "violet")
+const liElements = document.getElementsByTagName("li");
+Array.from(liElements).forEach(ele => ele.style.backgroundColor = "violet")
 
 
 // document.getElementById()  //Element or NULL

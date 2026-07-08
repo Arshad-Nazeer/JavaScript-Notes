@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+#mybox{
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#mybtn{
+    font-size: 3rem;
+}
+
+#box, #box1{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    font-size: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#btn{
+    font-size: 2rem;
+}
+
+.buttons{
+    font-size: 4rem;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: darkcyan;
+}
+
+#btn1{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.enabled{
+    background-color: aqua;
+    color: white;
+}
+
+.hover{
+    box-shadow: 0 0 10px black;
+    font-weight: bold;
+}
+
+.disabled{
+    background-color: darkgrey;
+    color: red;
+}
+
+#myH1{
+    font-size: 5rem;
+}
+
+
+.newbtn{
+    font-size: 5rem;
+}
