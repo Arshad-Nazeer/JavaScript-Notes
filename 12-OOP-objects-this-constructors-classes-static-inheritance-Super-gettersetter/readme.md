@@ -30,5 +30,3 @@ Implemented several examples including:
 - Rectangle class with validated getters and setters
 - Person class with validated properties and a computed `fullName`
 
----
-Day 6 was focused on building a strong foundation in JavaScript OOP concepts before moving on to more advanced topics.

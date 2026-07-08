@@ -1,4 +1,4 @@
-# JavaScript Learning – Day 1
+# JavaScript Learning 
 
 ## Topics Covered
 

@@ -35,5 +35,3 @@
 - Callback execution after asynchronous tasks
 - Safe division calculator with custom error handling
 
----
-Day 7 focused on understanding JavaScript timing functions, ES6 modules, asynchronous programming, callbacks, and robust error handling.

@@ -62,5 +62,3 @@
 - Arrow functions
 - Callback-based programming
 
----
-**Day 5 Summary:** Learned how JavaScript treats functions as values, how callbacks work, and mastered the most commonly used array methods: `forEach()`, `map()`, `filter()`, and `reduce()`, along with function expressions and arrow functions.
