@@ -79,7 +79,7 @@ const person3 = {
 // this:- The this keyword in JavaScript refers to the object that is currently executing the function.
 // (the object depends on the immediate context)
 // person.name = this.name
-// this leyword deosnt work in arrow expressions
+// this keyword deosnt work in arrow expressions
 
 person2.greet();
 person2.eat();

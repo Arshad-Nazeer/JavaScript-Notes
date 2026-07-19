@@ -248,9 +248,10 @@ let date = new Date();
 
 console.log(date); //current date
 
-// arguement structurefor custom date:- Date(year, month, day, hour, minute, second, ms);
+// arguement structure for custom date:- Date(year, month, day, hour, minute, second, ms);
 
 date = new Date(2026, 0, 1, 2, 3, 4, 65); //0-11 for months
+// new Date(year, monthIndex, day, hours, minutes, seconds, milliseconds)
 console.log(date);
 //the values becomes default values if number of arguements passed are less
 

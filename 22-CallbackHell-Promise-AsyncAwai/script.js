@@ -199,4 +199,11 @@ async function doChores(){
 doChores();
 
 
+//await doesn't block the JavaScript engine. Instead, it tells the engine:
+// Suspend this async function at this line.
+// Remember where to resume later.
+// Let the rest of the program continue running.
+// When the Promise settles, resume this function with the resolved value (or throw the rejection if it failed).
+
+// async function may pause because it uses await. While it's paused, return a Promise to the caller. When the function eventually finishes, resolve or reject that Promise
 

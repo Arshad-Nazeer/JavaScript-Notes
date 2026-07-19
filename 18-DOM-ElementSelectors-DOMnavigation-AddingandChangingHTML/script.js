@@ -52,7 +52,7 @@ console.log(myheading); //returns myheading along with its style
 
 
 // document.getElementsByClassName() //HTML collection
-// HTML has less utility methods like it does not have forEach() method but it can be typecasted
+// HTML collection has less utility methods like it does not have forEach() method but it can be typecasted
 // It's like array but not array
 const fruits = document.getElementsByClassName("fruits");
 console.log(fruits); // It's like array but not array
@@ -92,7 +92,7 @@ element.style.backgroundColor = "pink";
 // document.querySelectorAll()  //Nodelist
 // return nodelist of all matching elements
 // a nodelist is similar to html collections but it has inbuilt methods like arrays
-// nodelists are static, they do not update automatically in the DOM
+// nodelists are static, they do not update automatically in the DOM unlike HTML collections
 const foods = document.querySelectorAll(".fruits");
 console.log(foods);
 

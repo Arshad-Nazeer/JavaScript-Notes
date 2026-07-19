@@ -7,7 +7,7 @@ let guess;
 let running=true;
 
 while(running){
-    guess=window.prompt(`gues a number between ${min}-${max}`);
+    guess=window.prompt(`guess a number between ${min}-${max}`);
     if(guess==null) break;
     guess=Number(guess);
     if(isNaN(guess)) window.alert("Please enter a valid number");

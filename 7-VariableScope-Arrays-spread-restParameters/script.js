@@ -83,7 +83,7 @@ console.log(username);
 let letters = [...username];  //divides username into different characters 
 console.log(letters);
 letters = [...username].join("-"); //join each character of name using specified character
-console.log(letters);
+console.log(letters); //returns a string
 
 let fruits1= ["apple", "orange", "banana"];
 let newfruits = [...fruits1];
@@ -98,7 +98,7 @@ console.log(foods);
 
 
 
-// rest parameters(...rest):- allow a function work with a variable number of arguments by bundling them into an array (opposite of spread)
+// rest parameters(...rest):- allow a function to work with a variable number of arguments by bundling them into an array (opposite of spread)
 // spread:- expands an array into seperate elements
 // rest:-  bundles seperate elements into an array
 

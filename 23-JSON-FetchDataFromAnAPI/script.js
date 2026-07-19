@@ -1,5 +1,5 @@
 // JSON (JavaScript Object Notation)
-// dat-interchange formatdates
+// data-interchange formatdates
 // Used for exhanging dat between a server and a web applications
 // JSON files can be:-
 // objects {key: value} 
@@ -83,7 +83,7 @@ console.log(parsedpeople);
 // (JSON style data, images, files)
 // Simplifies asynchronous data fetching in Javascript and used for interacting with APIs to retrieve and send data asynchronously over the web
 // fetch(url, {options})
-// options:- get(delete), put, post, delete
+// options:- get(default), put, post, delete
 
 fetch("person.json")
     .then(response => response.json())

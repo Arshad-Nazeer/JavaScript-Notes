@@ -58,7 +58,7 @@ else console.log("false")
 
 
 
-// while loop = repeat soem code while some condition is true
+// while loop = repeat some code while some condition is true
 
 let name="";
 

@@ -127,7 +127,7 @@ console.log(result)
 //User Input:- prompt() method is used to take input from the user in the form of a string. It returns the input value as a string. If the user clicks "Cancel", it returns null.
 
 // 1. EASY WAY - window.prompt() method
-// 2. PROFE#SSIONAL WAY - using HTML form and input elements
+// 2. PROFESSIONAL WAY - using HTML form and input elements
 
 let username;
 
